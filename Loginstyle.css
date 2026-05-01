@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0,.6),rgba(0, 0, 0,.6)),
+    url("https://images.unsplash.com/photo-1519681393784-d120267933ba");
+    background-size: cover;
+    background-position: center;
+}
+
+.login-box {
+    width: 360px;
+    padding: 40px 32px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(18px);
+    border-radius: 20px;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0,.45);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.18);
+} 
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg,#00f5ff,#a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 14px 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+}
+
+.input-box label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255,255,255,0.7);
+    pointer-events: none;
+    transition: .4s ease;
+}
+
+
