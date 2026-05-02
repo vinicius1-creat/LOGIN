@@ -83,4 +83,52 @@ body {
     width: 100%;
 }
 
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.options a {
+    color: #00f5ff;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg,#00f5ff,#a855f7);
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    transform: translate(-2px);
+    box-shadow: 0 0 rgba(168,85,247,.7);
+}
+
+.register {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 14px;
+}
+
+.register a {
+    color: #00f5ff;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
 
