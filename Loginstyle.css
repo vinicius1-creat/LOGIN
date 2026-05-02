@@ -63,4 +63,24 @@ body {
     transition: .4s ease;
 }
 
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    top: -8px;
+    font-size: #00f5ff
+}
+
+.input-box span {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg,#00f5ff, #a855f7);
+    transition: .4s;
+}
+
+.inut-box input:focus ~ span {
+    width: 100%;
+}
+
 
